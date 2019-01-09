@@ -5,7 +5,7 @@
 +++
 ### It's...
 * Client-side scripting language
-* Reveloped by Brendan Eich in 1995
+* Developed by Brendan Eich in 1995
 * Can be run on any operating systems and almost all web browsers
 
 +++
@@ -55,8 +55,11 @@ and more...
 ### Variables
 ```js
 const myName = "Shanq Yeet" //-> values cannot be changed
+
 myName = "Edwin" //-> Will get error
+
 let myAge = 18 //-> values can be changed
+
 myAge = 21 //-> myAge will be updated to 21
 ```
 +++
@@ -77,15 +80,20 @@ Either way it is a bunch of text with available functions to help you access and
 ### Boolean - Comparator 2 
 ```js
 1 == 2 // false 
+
 1 < 2 // true 
+
 1 > 2 // false 
+
 1 != 2 // true 
+
 1 =< 2 // true 
 ```
 +++
 ### Boolean - Comparator 2
 ```js
 1 == 2 || 2 == 2 // you get true because one of it is true 
+
 1 == 2 && 2 == 2 // you get false because you need both to be true 
 ```
 +++
@@ -118,4 +126,5 @@ addition(1,2) //-> you get nothing
 +++
 ### Array - Extracting Data with Index
 ![](http://www.javascripttutorial.net/wp-content/uploads/2016/08/JavaScript-Array-Find-indexOf-Method-Example.png)
+
 There are also a bunch of functions available to access and manipulate array data
